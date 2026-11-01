@@ -1,6 +1,6 @@
 b {
     font-size: x-large;
-    color: crimson;
+    color: firebrick;
 }
 
 p, ul, h1, h2 {
@@ -8,3 +8,4 @@ p, ul, h1, h2 {
   font-weight: 400;
   font-style: normal;
 }
+

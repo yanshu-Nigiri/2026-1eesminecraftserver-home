@@ -1,11 +1,53 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
 b {
     font-size: x-large;
     color: firebrick;
 }
 
-p, ul, h1, h2 {
+p, ul li, h1, h2 {
   font-family: "Kosugi Maru", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 2%;
 }
 
+.page_header {
+  position: fixed;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 10%;
+  margin: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+#header_logo {
+  width: 4%;
+  height: 4%;
+  padding: 0;
+  margin-top: 0.5%;
+}
+
+#header_title {
+  width: auto;
+  height: 4%;
+  padding: 0;
+  margin-top: 2%;
+}
+
+.gazou {
+  width: 70%;
+  height: auto;
+}
+
+.yokonarabi {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
